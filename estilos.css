@@ -1,6 +1,6 @@
 
         body {
-            background-color: #f4acb7;
+            background-color: #D9D9D9;
             margin: 0;
             padding: 0;
         }
@@ -15,7 +15,7 @@
             /* Centra los elementos a lo largo del eje principal horizontal */
             align-items: center;
             /* Centra los elementos a lo largo del eje secundario vertical */
-            background-color: #ffffff;
+            background-color: #D9D9D9;
             margin: 0 50px;
             /* Margen a la derecha y a la izquierda. El valor 0 es para el margen superior e inferior */
 
@@ -24,17 +24,22 @@
         header {
             display: flex;
             /* Establece el encabezado como un contenedor flex */
-            align-items: baseline;
             /* Alinea los elementos del encabezado a lo largo de la línea de base */
             justify-content: space-between;
             /* Distribuye los elementos del encabezado de manera uniforme a lo largo del eje principal horizontal */
-            padding: 25px;
+            padding: 30px;
+            align-items: baseline;
+           align-items: center;
+
         }
+
+    
 
         .container-title {
             width: 100%;
             text-align: center;
             margin-bottom: 20px;
+            
         }
 
         .container-image {
@@ -42,10 +47,49 @@
             margin-bottom: 20px;
         }
 
-        .box {
+        h1 {
+            text-align: center;
+        }
+
+        .box1 {
             width: 350px;
+            height: 690px;
             padding: 20px;
-            background-color: #ffe5d9;
+            background-color: #EFF2EF;
             margin: 10px;
             text-align: center;
         }
+
+        .box2 {
+            width: 350px;
+            height: 500px;
+            padding: 20px;
+            background-color: #EFF2EF;
+            margin: 10px;
+            text-align: center;
+        }
+
+        .box3 {
+            width: 350px;
+            height: 690px;
+            padding: 20px;
+            background-color: #EFF2EF;
+            margin: 10px;
+            text-align: center;
+        }
+
+        .box4 {
+            width: 350px;
+            height: 500px;
+            padding: 20px;
+            background-color: #EFF2EF;
+            margin: 10px;
+            text-align: center;
+        }
+
+        ul {
+            list-style: none;
+            
+        }
+
+        
